@@ -16,11 +16,7 @@
 
  ```
  {
-<<<<<<< HEAD
     "firstName":"Ivan",
-=======
- "firstName":"Ivan",
->>>>>>> origin/master
     "lastName":"Ivanich",
     "bloodInfo": {
         "bloodGroup":"3",
