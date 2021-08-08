@@ -25,4 +25,12 @@ public class ServiceResponse {
     public void setResultDescription(String resultDescription) {
         this.resultDescription = resultDescription;
     }
+
+    @Override
+    public String toString() {
+        return "ServiceResponse{" +
+                "status='" + status + '\'' +
+                ", resultDescription='" + resultDescription + '\'' +
+                '}';
+    }
 }

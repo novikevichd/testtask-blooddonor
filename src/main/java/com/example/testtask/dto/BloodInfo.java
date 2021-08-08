@@ -28,6 +28,6 @@ public class BloodInfo {
     @Override
     public String toString() {
         return "Группа крови: " + bloodGroup +
-                ", резус фактор=" + rh;
+                ", резус фактор:" + rh;
     }
 }

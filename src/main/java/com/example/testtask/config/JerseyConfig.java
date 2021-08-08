@@ -1,7 +1,6 @@
 package com.example.testtask.config;
 
-import com.example.testtask.controller.BloodTestController;
-import com.example.testtask.controller.HelloWorldController;
+import com.example.testtask.controller.BloodDonorController;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.springframework.context.annotation.Configuration;
 
@@ -10,8 +9,7 @@ public class JerseyConfig extends ResourceConfig {
 
     public JerseyConfig() {
 
-        register(HelloWorldController.class);
-        register(BloodTestController.class);
+        register(BloodDonorController.class);
 
     }
 
