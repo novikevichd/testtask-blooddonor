@@ -28,17 +28,10 @@ public class BloodDonorController {
 
         ServiceResponse serviceResponse = bloodDonorService.getResult(patient);
 
-        LOG.info("Result is " + serviceResponse);
+        LOG.info("Результат " + serviceResponse);
 
-        return Response.ok(serviceResponse).build();
+        return Response.ok(serviceResponse).header("STATUS", serviceResponse.getStatus()).build();
 
     }
-
-    @GET
-    @Produces({MediaType.APPLICATION_JSON})
-    public Response getHelloWorld() {
-        return Response.ok("Hello from blood test").build();
-    }
-
 
 }

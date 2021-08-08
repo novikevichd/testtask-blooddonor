@@ -9,6 +9,14 @@ public class BloodInfo {
     private Character rh;
 
 
+    public BloodInfo() {
+    }
+
+    public BloodInfo(Character bloodGroup, Character rh) {
+        this.bloodGroup = bloodGroup;
+        this.rh = rh;
+    }
+
     public Character getBloodGroup() {
         return bloodGroup;
     }

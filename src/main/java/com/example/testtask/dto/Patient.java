@@ -10,6 +10,16 @@ public class Patient {
     private BloodInfo bloodInfo;
 
 
+    public Patient() {
+    }
+
+    public Patient(String firstName, String lastName, BloodInfo bloodInfo) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.bloodInfo = bloodInfo;
+    }
+
+
     public BloodInfo getBloodInfo() {
         return bloodInfo;
     }
